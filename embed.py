@@ -18,7 +18,7 @@ EMBEDDING_MODEL = 'sentence-transformers/all-MiniLM-L6-v2'
 embedding_model = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
 
 # Providing title of the app
-st.title("🔍 DevOps & Developer Assistance")
+st.title("🔍 WELCOME to DevMancer an DevOps Assistance")
 
 # Role selection
 role = st.selectbox("Choose your role", ["Developer", "DevOps Engineer", "Product Owner"])
